@@ -20,6 +20,7 @@ h2 {
   font-family: Oswald;
   text-align: center;
   color: #FFFFFF;
+  text-shadow: 5px 5px 5px #4CA5A9;
 }
 
 nav {
@@ -49,4 +50,18 @@ ul {
 
 .float {
   text-align: center;
+}
+
+.section_title {
+  font-family: Oswald;
+  color: #FFFFFF;
+  font-size: 100%;
+  text-shadow: 5px 5px 5px #4CA5A9;
+}
+
+.side_title {
+  font-family: Oswald;
+  color: #FFFFFF;
+  font-size: 100%;
+  text-shadow: 5px 5px 5px #4CA5A9;
 }
