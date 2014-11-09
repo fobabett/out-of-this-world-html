@@ -46,17 +46,20 @@ table {
   border-spacing: 0;
 }
 
+/*css reset end*/
+
+
+
 body {
   background-image: url("http://www.surftin.com/images/space-stars-image-favim_360187.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 #title {
   font-size: 100px;
-  text-shadow: 5px 5px 5px #414A6D;
+  text-shadow: 5px 5px 5px #0E444D;
   text-transform: uppercase;
   text-align: center;
   font-family: Oswald;
@@ -67,12 +70,13 @@ body {
   padding-left: 50px;
 }
 
+
 #sub_heading {
   font-size: 100%;
   font-family: Oswald;
   text-align: center;
-  color: #4CA5A9;
-  text-shadow: 5px 5px 5px #414A6D;
+  color: #138A7F;
+  text-shadow: 0 0 3px black;
   padding-top: 25px;
   padding-right: 50px;
   padding-bottom: 25px;
@@ -80,12 +84,10 @@ body {
 }
 
 nav  {
-  
+  text-shadow: 0 0 3px black;
   font-size: 16px;
-  padding-top: 25px;
-  padding-right: 50px;
-  padding-bottom: 25px;
-  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #main_nav {
@@ -96,10 +98,16 @@ nav  {
 li.nav_item {
   display: inline-block;
   vertical-align: text-top;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #sub_nav li{
   display: block;
+  padding-left: 0;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 
@@ -130,7 +138,7 @@ li.nav_item.has_dropdown:hover > ul#sub_nav {
 
 
 a {
-  color: #4CA5A9;
+  color: #138A7F;
   text-decoration: none;
   font-size: 12px;
   font-family: Oswald;
@@ -154,15 +162,17 @@ a:active {
   font-family: Oswald;
   color: #FFFFFF;
   font-size: 100%;
-  text-shadow: 5px 5px 5px #4CA5A9;
+  text-shadow: 5px 5px 5px #138A7F;
   text-align: center;
 }
 
 .side_title {
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-family: Oswald;
   color: #FFFFFF;
   font-size: 100%;
-  text-shadow: 5px 5px 5px #4CA5A9;
+  text-shadow: 5px 5px 5px #3A4165;
   text-align: center;
 }
 
@@ -170,17 +180,19 @@ p {
   font-family: sans-serif;
   text-align: left;
   padding-top: 25px;
-  padding-right: 50px;
+  padding-right: 100px;
   padding-bottom: 25px;
-  padding-left: 50px;
-  font-size: 12px;
+  padding-left: 100px;
+  font-size: 10px;
   color: #FFFFFF;
 }
 
 footer {
+  padding-top: 50px;
   font-family: sans-serif;
   font-size: 10px;
   color: #FFFFFF;
   text-align: center;
+  text-shadow: 0 0 3px #0E444D;
 }
 
